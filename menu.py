@@ -45,6 +45,8 @@ class HOTEL_MANAGEMENT:
         root.configure(background="#F1E67A")
         root.configure(highlightbackground="#66717E")
         root.configure(highlightcolor="white")
+        photo = PhotoImage(file = "./assets/i-titlebi.png")
+        root.iconphoto(False, photo)
 
 
 
