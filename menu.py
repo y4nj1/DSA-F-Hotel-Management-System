@@ -42,6 +42,7 @@ class HOTEL_MANAGEMENT:
 
         root.geometry("963x749+540+110")
         root.title("GOLDSTAR HOTEL MANAGEMENT")
+        root.resizable(0,0)
         root.configure(background="#F1E67A")
         root.configure(highlightbackground="#66717E")
         root.configure(highlightcolor="white")
