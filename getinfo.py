@@ -122,6 +122,8 @@ class HOTEL_MANAGEMENT:
         root.configure(background="#F1E67A")
         root.resizable(0,0)
 
+        photo = PhotoImage(file = "./assets/i-titlebi.png")
+        root.iconphoto(False, photo)
 
         self.Frame1 = Frame(root)
         self.Frame1.place(relx=0.02, rely=0.03, relheight=0.94, relwidth=0.96)
